@@ -591,8 +591,12 @@ img {
   flex-basis: calc((100% - 60px) / 3);
 }
 
-.cards-info > .card:hover,
-.cards-info > .card:focus {
+.cards-info .card .card-link {
+  display: block;
+}
+
+.cards-info .card .card-link:hover,
+.cards-info .card .card-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
